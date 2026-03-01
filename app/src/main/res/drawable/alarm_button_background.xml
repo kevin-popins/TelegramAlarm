@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#26000000">
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <!-- Скруглённые края, как на второй картинке -->
+            <corners android:radius="26dp" />
+
+            <!-- Тёплый золотистый фон -->
+            <gradient
+                android:startColor="#F4D48B"
+                android:endColor="#E7BA64"
+                android:angle="270" />
+
+            <!-- Золотая рамка -->
+            <stroke
+                android:width="2dp"
+                android:color="#C1923D" />
+
+            <!-- Отступы, чтобы текст не лип к краям -->
+            <padding
+                android:left="18dp"
+                android:top="12dp"
+                android:right="18dp"
+                android:bottom="12dp" />
+
+        </shape>
+    </item>
+
+</ripple>

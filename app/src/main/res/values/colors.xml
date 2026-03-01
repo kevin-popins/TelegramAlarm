@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- то, что у тебя уже было -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- наша новая палитра, без дубликатов -->
+    <color name="accent_gold">#D6A84A</color>
+    <color name="accent_gold_dark">#B68A33</color>
+    <color name="text_dark">#2A1E0B</color>
+    <color name="text_light">#FFF8E7</color>
+    <color name="button_bg">#E8C472</color>
+    <color name="button_bg_pressed">#C8A25A</color>
+
+    <color name="bg_overlay">#CC000000</color>              <!-- тёмный полупрозрачный фон, если где-то используем -->
+    <color name="text_primary_on_dark">#FFF8F0</color>      <!-- основной текст на тёмном фоне -->
+    <color name="text_secondary_on_dark">#FFE0C0</color>    <!-- второстепенный текст -->
+
+    <!-- Цвета для кнопок будильника -->
+    <color name="alarm_button_color">#E8C472</color>        <!-- фон кнопки (золото) -->
+    <color name="alarm_button_text">#2A1E0B</color>         <!-- текст на кнопке (тёмно-коричневый) -->
+
+    <color name="button_orange_light">#FBBF77</color>    <!-- светлый тёплый -->
+    <color name="button_orange_dark">#D97706</color>     <!-- более тёмный акцент -->
+    <color name="text_brown">#3F2A1C</color>
+    <color name="volume_color">#FF0000</color>
+</resources>

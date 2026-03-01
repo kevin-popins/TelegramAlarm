@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Telegram Alarm</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">HOME</string>
+    <string name="tab_settings">SETTINGS</string>
+    <string name="tab_info">INFO</string>
+
+    <!-- Home -->
+    <string name="tracking_cd">Tracking</string>
+    <string name="tracking_on">Tracking enabled\nTap to disable</string>
+    <string name="tracking_off">Tracking disabled\nTap to enable</string>
+
+    <!-- Settings UI -->
+    <string name="settings_intro">Enter one or more work chat names separated by semicolons, exactly as they appear in Telegram notifications.</string>
+    <string name="chat_names_hint">Work chat name(s)</string>
+    <string name="btn_save_chats">SAVE CHAT NAMES</string>
+    <string name="btn_pick_sound">CHOOSE ALARM SOUND</string>
+    <string name="sound_not_selected">No sound selected</string>
+    <string name="sound_selected">Selected sound: %1$s</string>
+    <string name="volume_label_default">Alarm volume: 100%</string>
+    <string name="volume_label_format">Alarm volume: %1$d%%</string>
+    <string name="btn_open_notif_access">OPEN NOTIFICATION ACCESS SETTINGS</string>
+    <string name="btn_disable_battery">DISABLE BATTERY OPTIMIZATIONS FOR THE APP</string>
+
+    <!-- Settings dynamic info -->
+    <string name="current_chat_single">Current work chat: "%1$s".\nThe alarm will match this name.</string>
+    <string name="current_chats_multi">Current work chats: %1$s.\nThe alarm will match any of them.</string>
+    <string name="saved_chat_single">Current work chat: "%1$s".\nThe alarm will match it.</string>
+    <string name="saved_chats_multi">Current work chats: %1$s.\nThe alarm will match any of them.</string>
+    <string name="chats_cleared">Chat names cleared.</string>
+
+    <!-- Language -->
+    <string name="language_section_title">App language</string>
+    <string name="btn_choose_language">Choose language</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_en">English</string>
+    <string name="language_dialog_title">Select language</string>
+    <string name="language_button_ru">Language: Russian</string>
+    <string name="language_button_en">Language: English</string>
+
+    <!-- Info -->
+    <string name="info_title">How to use the work chat alarm</string>
+    <string name="info_guide"><![CDATA[
+1) Disable battery optimizations for the app. The “Disable battery optimizations for the app” button in the Settings tab will open the correct system screen.
+
+2) Grant the app access to Telegram notifications. Use “Open notification access settings” and enable access for Telegram Alarm.
+
+3) Choose an alarm sound. Tap “Choose alarm sound” and select any available audio file. This sound will be played when the alarm triggers.
+
+4) Enter the work chat name (or several names separated by semicolons) exactly as they appear in Telegram notifications. The name does not have to be complete.
+
+5) Save the entered chat names using “Save chat names”. The app will react to any of the saved names.
+
+6) Set a comfortable alarm volume using the volume slider.
+
+7) Tap the cat button on the Home tab to enable tracking. When tracking is enabled, the cat glows and shows a thumbs-up.
+
+8) To stop the alarm, use the notification on your phone: open the shade, tap the alarm notification, and press the stop action.
+
+Developer contact: Tg @RunwayResearch
+]]></string>
+
+    <!-- Verify (если экран используется/останется в проекте) -->
+    <string name="verify_title">Work chat alarm activation</string>
+    <string name="verify_desc">Enter the activation key you received from the app author. After successful activation, the app will start tracking work chat notifications using your settings.</string>
+    <string name="verify_device_id_placeholder">Device ID: will be filled automatically</string>
+    <string name="verify_code_hint">Activation code</string>
+    <string name="verify_btn">ACTIVATE</string>
+
+    <!-- Notifications: status listener -->
+    <string name="channel_status_name">Telegram listener status</string>
+    <string name="notif_status_title">Work chat alarm is active</string>
+    <string name="notif_status_text">Telegram notification tracking is enabled.</string>
+
+    <!-- Notifications: alarm -->
+    <string name="channel_alarm_name">Work chat alarm</string>
+    <string name="channel_alarm_desc">Channel for a loud alarm sound on new messages</string>
+    <string name="notif_alarm_title">Work chat alert</string>
+    <string name="notif_alarm_text">A message arrived. Tap to stop the alarm.</string>
+    <string name="action_stop">Stop</string>
+
+    <!-- Manifest labels -->
+    <string name="service_listener_label">Telegram Listener</string>
+</resources>

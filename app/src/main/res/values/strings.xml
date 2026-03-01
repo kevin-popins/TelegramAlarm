@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TelegramAlarm</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">ГЛАВНАЯ</string>
+    <string name="tab_settings">НАСТРОЙКИ</string>
+    <string name="tab_info">INFO</string>
+
+    <!-- Home -->
+    <string name="tracking_cd">Отслеживание</string>
+    <string name="tracking_on">Отслеживание включено\nНажмите, чтобы отключить</string>
+    <string name="tracking_off">Отслеживание отключено\nНажмите, чтобы включить</string>
+
+    <!-- Settings UI -->
+    <string name="settings_intro">Введите название или несколько названий рабочих чатов через точку с запятой, как они выглядят в уведомлениях Telegram.</string>
+    <string name="chat_names_hint">Название(я) рабочих чатов</string>
+    <string name="btn_save_chats">СОХРАНИТЬ НАЗВАНИЯ ЧАТОВ</string>
+    <string name="btn_pick_sound">ВЫБРАТЬ ЗВУК СИГНАЛА</string>
+    <string name="sound_not_selected">Звук не выбран</string>
+    <string name="sound_selected">Выбран звук: %1$s</string>
+    <string name="volume_label_default">Громкость звука: 100%</string>
+    <string name="volume_label_format">Громкость звука: %1$d%%</string>
+    <string name="btn_open_notif_access">ОТКРЫТЬ НАСТРОЙКИ ДОСТУПА К УВЕДОМЛЕНИЯМ</string>
+    <string name="btn_disable_battery">ОТКЛЮЧИТЬ ЭНЕРГОСБЕРЕЖЕНИЕ ДЛЯ ПРИЛОЖЕНИЯ</string>
+
+    <!-- Settings dynamic info -->
+    <string name="current_chat_single">Текущий рабочий чат: "%1$s".\nБудильник реагирует на это название.</string>
+    <string name="current_chats_multi">Текущие рабочие чаты: %1$s.\nБудильник реагирует на любое из них.</string>
+    <string name="saved_chat_single">Текущий рабочий чат: "%1$s".\nБудильник реагирует на него.</string>
+    <string name="saved_chats_multi">Текущие рабочие чаты: %1$s.\nБудильник реагирует на любое из них.</string>
+    <string name="chats_cleared">Названия чатов очищены.</string>
+
+    <!-- Language -->
+    <string name="language_section_title">Язык приложения</string>
+    <string name="btn_choose_language">Выбрать язык</string>
+    <string name="language_ru">Русский</string>
+    <string name="language_en">English</string>
+    <string name="language_dialog_title">Выберите язык</string>
+    <string name="language_button_ru">Язык: Русский</string>
+    <string name="language_button_en">Language: English</string>
+
+    <!-- Info -->
+    <string name="info_title">Как пользоваться будильником рабочего чата</string>
+    <string name="info_guide"><![CDATA[
+1) Отключите энергосбережение для приложения. Кнопка «Отключить энергосбережение для приложения» на вкладке «Настройки» откроет нужный системный экран.
+
+2) Разрешите приложению доступ к уведомлениям Telegram. Для этого используйте кнопку «Открыть настройки доступа к уведомлениям» и включите доступ для Telegram Alarm.
+
+3) Выберите звук сигнала. Нажмите «Выбрать звук сигнала» и укажите любой доступный аудиофайл. Этот звук будет проигрываться при срабатывании будильника.
+
+4) Введите название рабочего чата или несколько названий через точку с запятой так, как они отображаются в уведомлениях Telegram. Необязательно указывать название полностью.
+
+5) Сохраните введённые названия чатов кнопкой «Сохранить названия чатов». Приложение будет реагировать на любое из сохранённых названий.
+
+6) Выберите комфортную громкость звука ползунком «Громкость звука».
+
+7) Нажмите на котика на главном экране, чтобы включить отслеживание. При включённом отслеживании котик светится и показывает палец вверх.
+
+8) Чтобы остановить звук, используйте уведомление на телефоне: откройте шторку, нажмите на уведомление и выберите кнопку остановки сигнала.
+
+Связь с разработчиком Tg @RunwayResearch
+]]></string>
+
+    <!-- Verify (если экран используется/останется в проекте) -->
+    <string name="verify_title">Активация будильника рабочего чата</string>
+    <string name="verify_desc">Введите ключ активации, который вы получили от автора приложения. После успешной активации будильник начнёт отслеживать уведомления рабочих чатов и использовать ваши настройки.</string>
+    <string name="verify_device_id_placeholder">Device ID: будет подставлен автоматически</string>
+    <string name="verify_code_hint">Код активации</string>
+    <string name="verify_btn">АКТИВИРОВАТЬ</string>
+
+    <!-- Notifications: status listener -->
+    <string name="channel_status_name">Статус прослушивания Telegram</string>
+    <string name="notif_status_title">Будильник рабочего чата активен</string>
+    <string name="notif_status_text">Прослушивание уведомлений Telegram включено.</string>
+
+    <!-- Notifications: alarm -->
+    <string name="channel_alarm_name">Будильник рабочего чата</string>
+    <string name="channel_alarm_desc">Канал для громкого сигнала при новых сообщениях</string>
+    <string name="notif_alarm_title">Сигнал от рабочего чата</string>
+    <string name="notif_alarm_text">Поступило сообщение. Нажмите, чтобы остановить сигнал.</string>
+    <string name="action_stop">Стоп</string>
+
+    <!-- Manifest labels -->
+    <string name="service_listener_label">Telegram Listener</string>
+</resources>

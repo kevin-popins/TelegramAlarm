@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Главная тема приложения, на основе Material Components -->
+    <style name="Theme.TelegramAlarm" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Цвета можно потом донастроить, пока пусть будет дефолт -->
+    </style>
+
+</resources>
