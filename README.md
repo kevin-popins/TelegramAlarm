@@ -32,8 +32,6 @@ TelegramAlarm is a lightweight Android utility that turns incoming notifications
 
 | !\[s1](docs/screenshots/01.png) | !\[s2](docs/screenshots/02.png) | !\[s3](docs/screenshots/03.png) | !\[s4](docs/screenshots/04.png) |
 
-
-
 \## What it does
 
 
