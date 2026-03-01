@@ -1,6 +1,6 @@
 \# TelegramAlarm
 
-!\[Android CI](https://github.com/kevin-popins/StateOfNetwork/actions/workflows/android.yml/badge.svg)
+!\[Android CI](https://github.com/kevin-popins/TelegramAlarm/actions/workflows/android.yml/badge.svg)
 
 
 
