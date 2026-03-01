@@ -1,6 +1,6 @@
-\# TelegramAlarm
+# TelegramAlarm
 
-!\[Android CI](https://github.com/kevin-popins/TelegramAlarm/actions/workflows/android-ci.yml/badge.svg)
+![Android CI](https://github.com/kevin-popins/TelegramAlarm/actions/workflows/android-ci.yml/badge.svg)
 
 
 
@@ -12,7 +12,7 @@ EN. TelegramAlarm is a lightweight Android utility that turns incoming notificat
 
 
 
-\## Run
+## Run
 
 
 
